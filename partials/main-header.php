@@ -11,7 +11,7 @@
 <body>
     <!--Top Bar-->
     <section class="topBar container">
-        <a href="" class="logo">Low <span>Office</span></a>
+        <a href="index.php" class="logo">Low <span>Office</span></a>
         <ul>
             <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
             <li><a href=""><i class="fab fa-twitter"></i></a></li>
