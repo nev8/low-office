@@ -46,6 +46,40 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime animi eaque sed esse eum eius consectetur neque praesentium voluptatum? Cupiditate, ex, ratione. Delectus fuga in iste assumenda ipsum perspiciatis? Magni adipisci pariatur eveniet explicabo velit dolores sunt aspernatur ipsam dolorum nihil facere veritatis, aperiam delectus id rem vitae fugiat iste laboriosam similique amet, ratione quasi. Tempora magni soluta temporibus pariatur voluptatibus natus iusto, repellat ratione qui, assumenda, recusandae quos id! Ea impedit, culpa optio aperiam, beatae quibusdam ex deleniti minima.</p>
 </section>
 
+<!--Peoples-->
+<section class="peoples">
+    <article class="container">
+        <div>
+            <img src="img/people1.jpg" alt="">
+            <h3>Etta James</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, delectus saepe illo labore, porro harum alias qui soluta iusto laborum amet corporis sit quo adipisci! A beatae at esse, tempore.</p>
+            <button>Learn more</button>
+            <button>Contact</button>
+        </div>
+        <div>
+            <img src="img/people2.jpg" alt="">
+            <h3>Louis Amstrong</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, delectus saepe illo labore, porro harum alias qui soluta iusto laborum amet corporis sit quo adipisci! A beatae at esse, tempore.</p>
+            <button>Learn more</button>
+            <button>Contact</button>
+        </div>
+        <div>
+            <img src="img/people3.jpg" alt="">
+            <h3>Etta James</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, delectus saepe illo labore, porro harum alias qui soluta iusto laborum amet corporis sit quo adipisci! A beatae at esse, tempore.</p>
+            <button>Learn more</button>
+            <button>Contact</button>
+        </div>
+        <div>
+            <img src="img/people4.jpg" alt="">
+            <h3>Louis Amstrong</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, delectus saepe illo labore, porro harum alias qui soluta iusto laborum amet corporis sit quo adipisci! A beatae at esse, tempore.</p>
+            <button>Learn more</button>
+            <button>Contact</button>
+        </div>
+    </article>
+</section>
+
 <?php include "partials/footer.php"; ?>
 
     
