@@ -108,4 +108,25 @@
     </div>
 </section>
 
+<!--Testimonials-->
+<section class="testimonials">
+    <h2>TESTIMONIALAS</h2>
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illo nam ipsa eos enim, corrupti quisquam excepturi exercitationem quod, adipisci harum saepe quae quasi tempora expedita officiis, unde similique aut.</p>
+           <h3>Client name 1</h3>
+        </div>
+        <div class="item">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illo nam ipsa eos enim, corrupti quisquam excepturi exercitationem quod, adipisci harum saepe quae quasi tempora expedita officiis, unde similique aut.</p>
+           <h3>Client name 2</h3>
+        </div>
+        <div class="item">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illo nam ipsa eos enim, corrupti quisquam excepturi exercitationem quod, adipisci harum saepe quae quasi tempora expedita officiis, unde similique aut.</p>
+           <h3>Client name 3</h3>
+        </div>
+    </div>
+</section>
+
+
+
 <?php include "partials/footer.php"; ?>
