@@ -172,7 +172,7 @@ Main Header
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 90vh;
+  height: 70vh;
   text-align: center;
   width: 50%;
   margin: auto;
@@ -263,5 +263,72 @@ footer {
   text-align: center;
   color: white;
   padding: 20px;
+}
+
+/*****************
+Services
+*****************/
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: -100px;
+}
+
+.services article {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.services article i {
+  font-size: 4rem;
+}
+
+.services article h3 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.services article button {
+  padding: 10px 40px;
+  background: transparent;
+  border: 2px solid white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin-top: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.services article button:hover {
+  background: white;
+  color: #3177b5;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.services article:nth-child(odd) {
+  background: #3177b5;
+}
+
+.services article:nth-child(even) {
+  background: #33a5d7;
 }
 /*# sourceMappingURL=style.css.map */
