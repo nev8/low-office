@@ -461,7 +461,7 @@ Team
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 0 200px 0;
 }
 
 .team h2 {
@@ -493,6 +493,7 @@ Peoples
 }
 
 .peoples .container {
+  padding-bottom: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -523,5 +524,71 @@ Peoples
 
 .peoples .container article .text {
   padding: 40px;
+}
+
+.peoples .container article .text h3 {
+  font-size: 2rem;
+}
+
+.peoples .container article .text h3::after {
+  background: white;
+  width: 150px;
+  display: block;
+  height: 2px;
+  content: "";
+  margin: 0 0 20px 0;
+  margin: 20px auto;
+}
+
+.peoples .container article:nth-child(odd) {
+  background: #3177b5;
+}
+
+.peoples .container article:nth-child(odd) button {
+  padding: 10px 40px;
+  background: transparent;
+  border: 2px solid white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin-top: 30px;
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  background: #33a5d7;
+  border: none;
+}
+
+.peoples .container article:nth-child(odd) button:hover {
+  background: white;
+  color: #3177b5;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.peoples .container article:nth-child(even) {
+  background: #33a5d7;
+}
+
+.peoples .container article:nth-child(even) button {
+  padding: 10px 40px;
+  background: transparent;
+  border: 2px solid white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin-top: 30px;
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  background: #3177b5;
+  border: none;
+}
+
+.peoples .container article:nth-child(even) button:hover {
+  background: white;
+  color: #3177b5;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
 }
 /*# sourceMappingURL=style.css.map */
