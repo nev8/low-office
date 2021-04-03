@@ -482,4 +482,46 @@ Team
   width: 50%;
   margin: auto;
 }
+
+/*****************
+Peoples
+*****************/
+.peoples {
+  background: #eaeaea;
+  text-align: center;
+  color: white;
+}
+
+.peoples .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.peoples .container article {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  margin-top: -100px;
+}
+
+.peoples .container article img {
+  width: 100%;
+}
+
+.peoples .container article .text {
+  padding: 40px;
+}
 /*# sourceMappingURL=style.css.map */
