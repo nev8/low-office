@@ -20,7 +20,27 @@ Mixins
     align-items: $align;
     flex-direction: $direction;
 }
-
+@mixin bgImg($height) {
+    height: $height;
+    background-position: center;
+    background-size: cover;
+}
+@mixin btn {
+    padding: 10px 40px;
+    background: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+    &:hover {
+        background: white;
+        color: $primary;
+        transition: $transition;
+    }
+}
 /*****************
 Basic styles
 *****************/
@@ -31,6 +51,8 @@ Basic styles
 }
 body {
     font-family: $fontFamily;
+    font-size: $fontSize;
+    line-height: 1.5;
 }
 a {
     text-decoration: none;
@@ -80,6 +102,44 @@ Top Bar
                 box-shadow: 0 0 10px $lightGray;
                 background: $secondary;
             }
+        }
+    }
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 3.2rem;
+    font-weight: 400;
+    text-shadow: 0 0 2px $tertiary;
+}
+/*****************
+Main Header
+*****************/
+.mainHeader {
+    background: linear-gradient(rgba($primary,.7),(rgba($primary,.7))), url(img/header.jpg);
+    @include bgImg(90vh);
+    nav {
+        padding-top: 20px;
+        ul {
+            @include flex(flex-end, center);
+            a {
+                color: white;
+                font-size: 1.3rem;
+                margin-left: 40px;
+            }
+        }
+    }
+    hgroup {
+        @include flex(center, center, column);
+        height: 90vh;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        color: white;
+        p {
+            font-size: .8rem;
+        }
+        button {
+            @include btn;
         }
     }
 }

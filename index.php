@@ -13,7 +13,7 @@
     <section class="topBar container">
         <a href="" class="logo">Low <span>Office</span></a>
         <ul>
-        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
         <li><a href=""><i class="fab fa-twitter"></i></a></li>
         <li><a href=""><i class="fab fa-instagram"></i></a></li>
         </ul>
@@ -30,7 +30,7 @@
             </ul>
         </nav>
         <hgroup>
-            <h2>Experience - Trust - Results</h2>
+            <h1>Experience - Trust - Results</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, ea. Fugit ab nihil eveniet accusamus vel. Accusantium eos, voluptate. Quos recusandae voluptas adipisci ipsa officia, repellendus ea similique labore obcaecati? Fugit ab nihil eveniet accusamus vel. Accusantium eos, voluptate. Quos recusandae voluptas adipisci ipsa officia, repellendus ea similique labore obcaecati?</p>
             <button>view more</button>
         </hgroup>
