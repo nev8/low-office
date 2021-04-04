@@ -618,4 +618,153 @@ Testimonials
 .testimonials .owl-carousel h3 {
   margin-bottom: 30px;
 }
+
+/*****************
+Consultation
+*****************/
+.consultation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.consultation article:first-child {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  padding-left: 10%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 0, 51, 0.7)), to(rgba(8, 0, 51, 0.7))), url(img/about2.jpg);
+  background: linear-gradient(rgba(8, 0, 51, 0.7), rgba(8, 0, 51, 0.7)), url(img/about2.jpg);
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.consultation article:first-child h2 {
+  border: 2px solid white;
+  padding: 65px;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.consultation article:last-child {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  padding-right: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.consultation article:last-child form {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.consultation article:last-child form input {
+  border: 2px solid #3177b5;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.consultation article:last-child form input[type="text"] {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 48%;
+          flex: 0 0 48%;
+}
+
+.consultation article:last-child form input[type="email"] {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+}
+
+.consultation article:last-child form textarea {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  border: 2px solid #3177b5;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.consultation article:last-child form button {
+  padding: 10px 40px;
+  background: transparent;
+  border: 2px solid white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  margin-top: 30px;
+  cursor: pointer;
+  color: white;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  background: #3177b5;
+  border: 2px solid #3177b5;
+}
+
+.consultation article:last-child form button:hover {
+  background: white;
+  color: #3177b5;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
 /*# sourceMappingURL=style.css.map */
